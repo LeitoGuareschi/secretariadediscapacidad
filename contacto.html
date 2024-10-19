@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Subsecretaria de Discapacidad
+    </title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'comic', sans-serif;
+        }
+
+        .wave-bg {
+            background: linear-gradient(180deg, #fff 50%, #004d40 50%);
+        }
+    </style>
+</head>
+
+<body class="wave-bg">
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <div class="flex items-center">
+               <img src="img/logo.png" width="120" alt="">
+               <div class="ml-3">
+                <p class="text-sm">
+                    SUBSECRETARIA DE DISCAPACIDAD
+                </p>
+            </div>
+            </div>
+            <nav class="flex space-x-4">
+                <a class="text-gray-700 hover:text-green-700" href="principal.html">
+                    Inicio
+                </a>
+                <a class="text-gray-700 hover:text-green-700" href="juntasevaluadoras.html">
+                    Juntas Evaluadoras
+                </a>
+                <a class="text-gray-700 hover:text-green-700" href="certificado.html">
+                    C.U.D
+                </a>
+                <a class="text-gray-700 hover:text-green-700" href="contacto.html">
+                    Contactanos
+                </a>
+            </nav>
+            <a class="text-green-700 hover:underline" href="#">
+                Para acceder o registrarse haga click aqui!
+            </a>
+        </div>
+    </header>
+    <main class="container mx-auto mt-10 px-6">
+        <h1 class="text-center text-3xl font-bold text-green-700">
+            Contactate con
+        </h1>
+        <h2 class="text-center text-4xl font-bold text-green-900">
+            SubSecretaria De Discapacidad
+        </h2>
+        <div class="mt-10 bg-white shadow-md rounded-lg p-6 flex">
+            <div class="w-1/2">
+                <h3 class="text-xl font-bold mb-4">
+                    Contactanos
+                </h3>
+                <form>
+                    <div class="mb-4">
+                        <label class="block text-gray-700" for="name">
+                            Nombre y Apellido
+                        </label>
+                        <input class="w-full border border-gray-300 rounded-md p-2" id="name"
+                            placeholder="Nombre Completo" type="text" />
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700" for="email">
+                            Email
+                        </label>
+                        <div class="flex items-center border border-gray-300 rounded-md p-2">
+                            <i class="fas fa-envelope text-gray-500 mr-2">
+                            </i>
+                            <input class="w-full border-none focus:outline-none" id="email" placeholder="Email"
+                                type="email" />
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700" for="message">
+                            Mensaje
+                        </label>
+                        <textarea class="w-full border border-gray-300 rounded-md p-2" id="message"
+                            placeholder="Escribe lo que quieras decirnos!"></textarea>
+                    </div>
+                    <button class="bg-green-700 text-white px-4 py-2 rounded-md" type="submit">
+                        Enviar Mensaje
+                    </button>
+                </form>
+            </div>
+            <div class="w-1/2 flex justify-center items-center">
+                <img alt="Ilustración de persona enviando mensaje" class="h-64" height="300"
+                    src="https://storage.googleapis.com/a1aa/image/XAfXj2sPvbVjW6v2qStifRiTAf3tsEJzxODUQP7TE4dgWFQnA.jpg"
+                    width="300" />
+            </div>
+        </div>
+    </main>
+    <footer class="bg-white mt-10 py-4">
+        <div class="container mx-auto text-center">
+            <img src="img/logo.png" width="300" alt="">
+            <p class="text-green-700 font-bold">
+                Ministerio de Desarrollo Humano, Deporte y Cultura
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
